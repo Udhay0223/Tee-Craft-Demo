@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TEE CRAFT - Products</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <div class="logo">TEE CRAFT</div>
+      <nav>
+        <ul>
+           <li><a href="index.html">Home</a></li>
+          <li><a href="orders.html">Orders</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="products.html" class="active">Products</a></li>
+        </ul>
+      </nav>
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search..." />
+        <button onclick="handleSearch()">🔍</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h1>Our Products</h1>
+    <div class="product-gallery">
+      <img src="https://wallpaperaccess.com/full/6173939.jpg" alt="Product 1" class="gallery-image" />
+      <img src="https://wallpaperaccess.com/full/6173939.jpg" alt="Product 2" class="gallery-image" />
+      <img src="https://wallpaperaccess.com/full/6173939.jpg" alt="Product 3" class="gallery-image" />
+      <img src="https://wallpaperaccess.com/full/6173939.jpg" alt="Product 3" class="gallery-image" />
+      <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Product 3" class="gallery-image" />
+      
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-social">
+      <a href="https://facebook.com" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" /></a>
+      <a href="https://twitter.com" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg" alt="Twitter" /></a>
+      <a href="https://instagram.com" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" /></a>
+      <a href="https://linkedin.com" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" /></a>
+    </div>
+  </footer>
+
+  <div id="lightbox" class="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" alt="Expanded product image" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
